@@ -1,9 +1,30 @@
 .grid-121 {
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2.5fr 1fr;
 }
 #main-1 {
     padding-top: 56px;
 }
 .left-side {
     padding: 20px 0 15px 15px;
+    height: 100vh;
+    overflow-y: auto;
+}
+.left-side-item {
+    width: 286px;
+    height: 44px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.left-side-item:hover {
+    background-color: var(--hover-bg);
+}
+.see-more-logo {
+    background-color: var(--hover-bg);
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+}
+.left-side-halka-title {
+    color: var(--nav-input-bg);
+    padding-left: 8px;
 }

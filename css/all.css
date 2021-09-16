@@ -3,6 +3,9 @@
     font-family: "PNC";
     src: url("../fonts/Helvetica-Font/Helvetica.ttf");
 }
+/* load google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +13,6 @@
 }
 body {
     background-color: var(--body-bg);
-    font-family: "Segoe UI Historic", "Segoe UI", "PNC", Helvetica, Arial,
-        sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--primary-text);
 }
