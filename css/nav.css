@@ -40,7 +40,10 @@
 }
 .nav-icons ul li {
     width: 110px;
-    padding-left: 8px;
+    margin-left: 8px;
+}
+.nav-icons ul li:hover {
+    background-color: rgba(128, 128, 128, 0.4);
 }
 .nav-icons ul li svg {
     fill: var(--nav-search-icon);
@@ -48,6 +51,15 @@
 .nav-icons ul li:first-child {
     padding-left: 0;
 }
+.nav-icons ul li:first-child:hover {
+    background-color: inherit;
+}
 .nav-icons ul li:first-child svg {
     fill: var(--logo-color);
+}
+.under-border {
+    height: 4px;
+    width: 110px;
+    background-color: var(--logo-color);
+    bottom: 0;
 }
