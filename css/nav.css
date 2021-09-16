@@ -1,0 +1,51 @@
+/* importing variables */
+@import url(var.css);
+
+#nav {
+    background-color: var(--nav-bg);
+    padding: 5px 15px;
+    align-items: center;
+    height: 56px;
+}
+.nav-logo {
+    width: 40px;
+    height: 40px;
+}
+#search-input {
+    margin-left: 8px;
+    padding: 7px 16px 9px 36px;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    width: 240px;
+    background-color: var(--nav-input-bg);
+    color: var(--nav-input-text);
+    font-size: 15px;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    height: 40px;
+}
+#search-input::placeholder {
+    color: var(--nav-search-icon);
+}
+.search-icon {
+    color: var(--nav-search-icon);
+    font-size: 16px;
+    width: 16px;
+    top: 12px;
+    left: 25px;
+    right: 212px;
+    bottom: 12px;
+}
+.nav-icons {
+    margin: auto 30px auto 80px;
+    font-size: 25px;
+    width: 590px;
+}
+.nav-icons ul li {
+    width: 110px;
+    padding-left: 8px;
+    color: var(--nav-search-icon);
+}
+.nav-icons ul li:first-child {
+    padding-left: 0;
+}
