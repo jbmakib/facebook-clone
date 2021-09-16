@@ -1,0 +1,9 @@
+.grid-121 {
+    grid-template-columns: 1fr 2fr 1fr;
+}
+#main-1 {
+    padding-top: 56px;
+}
+.left-side {
+    padding: 20px 0 15px 15px;
+}

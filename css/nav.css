@@ -3,6 +3,7 @@
     padding: 5px 15px;
     align-items: center;
     height: 56px;
+    width: 100%;
 }
 .nav-logo {
     width: 40px;
@@ -18,7 +19,6 @@
     background-color: var(--nav-input-bg);
     color: var(--nav-input-text);
     font-size: 15px;
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
     height: 40px;
 }
 #search-input::placeholder {
@@ -34,7 +34,7 @@
     bottom: 12px;
 }
 .nav-icons {
-    margin: 0 30px 0 80px;
+    margin: 0 30px 0 70px;
     font-size: 25px;
     width: 590px;
 }
@@ -58,7 +58,7 @@
     fill: var(--logo-color);
 }
 .under-border {
-    height: 4px;
+    height: 3px;
     width: 110px;
     background-color: var(--logo-color);
     bottom: 0;
